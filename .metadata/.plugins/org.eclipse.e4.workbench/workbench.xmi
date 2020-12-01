@@ -2953,4 +2953,42 @@
   <addons xmi:id="_lPzBozPpEeu1l5qHCgHyrw" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_lPzBpDPpEeu1l5qHCgHyrw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <categories xmi:id="_lPzBpTPpEeu1l5qHCgHyrw" elementId="org.eclipse.team.ui.category.team" name="Team" description="Actions that apply when working with a Team"/>
-  <categories xmi:id="_lPzBpjPpEeu1l5qHCgHyrw" elementId="org.eclipse.ui.category.views" name
+  <categories xmi:id="_lPzBpjPpEeu1l5qHCgHyrw" elementId="org.eclipse.ui.category.views" name="Views" description="Commands for opening views"/>
+  <categories xmi:id="_lPzBpzPpEeu1l5qHCgHyrw" elementId="org.springframework.tooling.ls.eclipse.gotosymbol.commands.category" name="STS4"/>
+  <categories xmi:id="_lPzBqDPpEeu1l5qHCgHyrw" elementId="org.eclipse.tm4e.languageconfiguration.category" name="TM4E Language Configuration"/>
+  <categories xmi:id="_lPzBqTPpEeu1l5qHCgHyrw" elementId="org.eclipse.ui.category.edit" name="Edit"/>
+  <categories xmi:id="_lPzBqjPpEeu1l5qHCgHyrw" elementId="org.springframework.ide.eclipse.boot.commands.category" name="Spring Boot"/>
+  <categories xmi:id="_lPzBqzPpEeu1l5qHCgHyrw" elementId="org.eclipse.mylyn.wikitext.ui.editor.category" name="WikiText Markup Editing Commands" description="commands for editing lightweight markup"/>
+  <categories xmi:id="_lPzBrDPpEeu1l5qHCgHyrw" elementId="org.eclipse.buildship.ui.project" name="Buildship" description="Contains the Buildship specific commands"/>
+  <categories xmi:id="_lPzBrTPpEeu1l5qHCgHyrw" elementId="org.eclipse.ui.ide.markerContents" name="Contents" description="The category for menu contents"/>
+  <categories xmi:id="_lPzBrjPpEeu1l5qHCgHyrw" elementId="org.eclipse.ui.category.textEditor" name="Text Editing" description="Text Editing Commands"/>
+  <categories xmi:id="_lPzBrzPpEeu1l5qHCgHyrw" elementId="org.dadacoalition.yedit.commands.category" name="YEdit" description="Commands related to the YEdit plugin"/>
+  <categories xmi:id="_lPzBsDPpEeu1l5qHCgHyrw" elementId="org.eclipse.wst.jsdt.ui.category.source" name="Source" description="JavaScript Source Actions"/>
+  <categories xmi:id="_lPzBsTPpEeu1l5qHCgHyrw" elementId="org.eclipse.ui.category.navigate" name="Navigate"/>
+  <categories xmi:id="_lPzBsjPpEeu1l5qHCgHyrw" elementId="org.eclipse.wst.server.ui" name="Server" description="Server"/>
+  <categories xmi:id="_lPzBszPpEeu1l5qHCgHyrw" elementId="org.eclipse.lsp4e.category" name="Language Servers"/>
+  <categories xmi:id="_lPzBtDPpEeu1l5qHCgHyrw" elementId="org.eclipse.ui.category.file" name="File"/>
+  <categories xmi:id="_lPzBtTPpEeu1l5qHCgHyrw" elementId="org.eclipse.tm.terminal.view.ui.commands.category" name="Terminal Commands"/>
+  <categories xmi:id="_lPzBtjPpEeu1l5qHCgHyrw" elementId="org.eclipse.compare.ui.category.compare" name="Compare" description="Compare command category"/>
+  <categories xmi:id="_lPzBtzPpEeu1l5qHCgHyrw" elementId="org.eclipse.text.quicksearch.commands.category" name="Quick Search"/>
+  <categories xmi:id="_lPzBuDPpEeu1l5qHCgHyrw" elementId="org.eclipse.ui.category.window" name="Window"/>
+  <categories xmi:id="_lPzBuTPpEeu1l5qHCgHyrw" elementId="org.eclipse.jdt.ui.category.refactoring" name="Refactor - Java" description="Java Refactoring Actions"/>
+  <categories xmi:id="_lPzBujPpEeu1l5qHCgHyrw" elementId="org.eclipse.ui.category.help" name="Help"/>
+  <categories xmi:id="_lPzBuzPpEeu1l5qHCgHyrw" elementId="org.springframework.ide.eclipse.commands" name="Spring Generic Text Editor" description="Spring Language Server Commands"/>
+  <categories xmi:id="_lPzBvDPpEeu1l5qHCgHyrw" elementId="org.eclipse.ui.category.project" name="Project"/>
+  <categories xmi:id="_lPzBvTPpEeu1l5qHCgHyrw" elementId="org.springsource.ide.eclipse.common.ui.commands" name="SpringSource Tools"/>
+  <categories xmi:id="_lPzBvjPpEeu1l5qHCgHyrw" elementId="org.eclipse.pde.genericeditor.extension.category.source" name="Target Definition Source" description="Target Definition Source Page actions"/>
+  <categories xmi:id="_lPzBvzPpEeu1l5qHCgHyrw" elementId="org.eclipse.tm.terminal.category1" name="Terminal view commands" description="Terminal view commands"/>
+  <categories xmi:id="_lPzBwDPpEeu1l5qHCgHyrw" elementId="org.eclipse.search.ui.category.search" name="Search" description="Search command category"/>
+  <categories xmi:id="_lPzBwTPpEeu1l5qHCgHyrw" elementId="org.eclipse.debug.ui.category.run" name="Run/Debug" description="Run/Debug command category"/>
+  <categories xmi:id="_lPzBwjPpEeu1l5qHCgHyrw" elementId="org.eclipse.ui.category.dialogs" name="Dialogs" description="Commands for opening dialogs"/>
+  <categories xmi:id="_lPzBwzPpEeu1l5qHCgHyrw" elementId="org.eclipse.egit.ui.commandCategory" name="Git"/>
+  <categories xmi:id="_lPzBxDPpEeu1l5qHCgHyrw" elementId="org.eclipse.ui.category.perspectives" name="Perspectives" description="Commands for opening perspectives"/>
+  <categories xmi:id="_lPzBxTPpEeu1l5qHCgHyrw" elementId="org.eclipse.ltk.ui.category.refactoring" name="Refactoring"/>
+  <categories xmi:id="_lPzBxjPpEeu1l5qHCgHyrw" elementId="org.eclipse.gef.category.view" name="View" description="View"/>
+  <categories xmi:id="_lPzBxzPpEeu1l5qHCgHyrw" elementId="org.eclipse.lsp4e.commandCategory" name="Command"/>
+  <categories xmi:id="_lPzByDPpEeu1l5qHCgHyrw" elementId="org.eclipse.jdt.ui.category.source" name="Source" description="Java Source Actions"/>
+  <categories xmi:id="_lPzByTPpEeu1l5qHCgHyrw" elementId="org.eclipse.pde.runtime.spy.commands.category" name="Spy"/>
+  <categories xmi:id="_lPzByjPpEeu1l5qHCgHyrw" elementId="org.eclipse.pde.ui.category.source" name="Manifest Editor Source" description="PDE Source Page actions"/>
+  <categories xmi:id="_lPzByzPpEeu1l5qHCgHyrw" elementId="org.eclipse.core.commands.categories.autogenerated" name="Uncategorized" description="Commands that were either auto-generated or have no category"/>
+</application:Application>
