@@ -1,0 +1,5 @@
+package com.cg.trainee.Repository;
+
+public interface TraineeRepository {
+
+}

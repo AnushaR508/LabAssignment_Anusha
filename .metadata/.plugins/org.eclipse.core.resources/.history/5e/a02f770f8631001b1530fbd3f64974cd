@@ -1,0 +1,5 @@
+package com.cg.trainee.exception;
+
+public class TraineeIdExceptionResponse {
+
+}

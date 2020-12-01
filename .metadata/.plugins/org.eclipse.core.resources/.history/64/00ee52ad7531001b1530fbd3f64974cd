@@ -1,0 +1,46 @@
+package com.cg.trainee.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+
+import com.cg.trainee.Repository.TraineeRepository;
+import com.cg.trainee.domain.Trainee;
+
+@Service
+public class TraineeService {
+    @Autowired
+	TraineeRepository traineedao;
+    
+    public Iterable<Trainee> findAllTrainees(){
+    	return traineedao.findAll();
+    }
+    
+    public Trainee findByTraineeId(int id){
+    	Trainee trainee= traineedao.findByTraineeId(id);
+    	if(trainee==null) {
+    		//exception
+    	}
+    	return trainee;
+    }
+    public void deleteTraineeById(int id)
+    {
+    	Trainee trainee= traineedao.findByTraineeId(id);
+    	if(trainee==null)
+    	{
+    		
+    	}
+    	traineedao.delete(trainee);
+    }
+    public Trainee updateById(int id)
+    {
+       
+    }
+    public Trainee saveTrainee(Trainee trainee)
+    {
+    	trainee.setTraineeId(trainee.getTraineeId());
+    	traineedao.save(trainee);
+    	return trainee;
+    }
+    
+}

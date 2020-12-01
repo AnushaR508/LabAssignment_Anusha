@@ -1,0 +1,61 @@
+package com.cg.trainee.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+
+import com.cg.trainee.Repository.TraineeRepository;
+import com.cg.trainee.domain.Trainee;
+import com.cg.trainee.exception.TraineeIdException;
+
+@Service
+public class TraineeService {
+    @Autowired
+	TraineeRepository traineedao;
+    
+    public Iterable<Trainee> findAllTrainees(){
+    	return traineedao.findAll();
+    }
+    
+    public Trainee findByTraineeId(int id){
+    	Trainee trainee= traineedao.findByTraineeId(id);
+    	if(trainee==null) {
+    		throw new TraineeIdException("Trainee id is not available");
+    	}
+    	return trainee;
+    }
+    public void deleteTraineeById(int id) {
+    	Trainee trainee=findByTraineeId(id);
+    		
+    	traineedao.delete(trainee);
+    }
+    public Trainee updateTraineeById(Trainee trainee) {
+    	Trainee traine=findByTraineeId(trainee.getTraineeId());	
+    	return traineedao.save(trainee);
+    }
+    public Trainee updateByDomain( int traineeId,String traineeDomain)
+    {
+    	Trainee trainee= traineedao.findByTraineeId(traineeId);
+    	trainee.setTraineeDomain(traineeDomain);
+    	traineedao.save(trainee);
+    	return trainee;
+    	
+    }
+    public Trainee updateByLocation(String traineeLocation, int traineeId)
+    {
+    	Trainee trainee= traineedao.findByTraineeId(traineeId);
+    	trainee.setTraineeLocation(traineeLocation);
+    	traineedao.save(trainee);
+    	return trainee;
+    	
+    }
+    public Trainee SaveTrainee(Trainee trainee) {
+    	
+    		Trainee traine= traineedao.findByTraineeId(trainee.getTraineeId());
+    		if(traine!=null)
+    			throw new TraineeIdException("Trainee id is already available");
+    	    return traineedao.save(trainee);
+    
+    }
+   
+}

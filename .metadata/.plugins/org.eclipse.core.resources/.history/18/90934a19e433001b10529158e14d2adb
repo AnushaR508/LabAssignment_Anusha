@@ -1,0 +1,44 @@
+package com.cg.movie.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.cg.movie.Repository.MovieRepository;
+import com.cg.movie.domain.Movie;
+
+@Service
+public class MovieService {
+	@Autowired
+    private MovieRepository movierepository;
+    public Movie addMovie(Movie movie)
+    {
+    	return movierepository.save(movie);
+    }
+    public void deleteMovie(int movieId)
+    {
+    	Movie movie=movierepository.findById(movieId);
+    	movierepository.delete(movie);
+    }
+    public Iterable<Movie> serchAllMovies()
+    {
+    	return movierepository.findAll();
+    }
+    public List<Movie> searchByGenre(String genre)
+    {
+    	return movierepository.findByGenre(genre);
+    }
+    public Movie updateMovies(Movie movie)
+    {
+    	return  movierepository.save(movie);
+    }
+    public Iterable<Movie> SearchAllMovies(){
+		return movierepository.findAll();
+	}
+	
+	
+
+
+    
+}

@@ -1,0 +1,5 @@
+package com.cg.movie.domain;
+
+public class Movie {
+
+}

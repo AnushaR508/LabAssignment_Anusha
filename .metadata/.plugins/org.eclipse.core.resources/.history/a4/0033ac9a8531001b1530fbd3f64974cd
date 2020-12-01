@@ -1,0 +1,6 @@
+package com.cg.trainee.controller;
+@RestController
+public class TraineeController {
+ 
+	
+}
